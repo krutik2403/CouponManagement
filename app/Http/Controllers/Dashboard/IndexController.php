@@ -11,7 +11,7 @@ class IndexController extends Controller
     public function index()
     {
         if (Auth::user()->isAdmin()) {
-            return redirect(route('admin::index'));
+            return redirect('admin/coupons');
         }
 
         return view('dashboard.index');

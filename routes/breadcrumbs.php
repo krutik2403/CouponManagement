@@ -44,7 +44,7 @@ Breadcrumbs::register('profile', function ($breadcrumbs) {
 
 // Admin
 Breadcrumbs::register('admin', function ($breadcrumbs) {
-    $breadcrumbs->push('Admin', route('admin::index'));
+    $breadcrumbs->push('Admin', '/dashboard');
 });
 
 // Admin / {Resource} / {List|Edit|Create}
