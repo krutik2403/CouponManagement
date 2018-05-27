@@ -153,7 +153,7 @@ return [
          * Package Service Providers...
          */
         Laracasts\Flash\FlashServiceProvider::class,
-        DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::class,
+        //DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -218,7 +218,7 @@ return [
         // 'Image' => Intervention\Image\Facades\Image::class,
 
         'Flash' => Laracasts\Flash\Flash::class,
-        'Breadcrumbs' => DaveJamesMiller\Breadcrumbs\Facades\Breadcrumbs::class,
+        //'Breadcrumbs' => DaveJamesMiller\Breadcrumbs\Facades\Breadcrumbs::class,
         'Carbon' => Carbon\Carbon::class,
 
     ],
